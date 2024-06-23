@@ -3,6 +3,8 @@
 /* more headers goes there */
 #include <stdio.h>
 /* betty style doc for function main goes there */
+/* function generates random numbers  */
+/* prints them on screen with their negative or positve values */
 int main(void)
 {
 int n;
