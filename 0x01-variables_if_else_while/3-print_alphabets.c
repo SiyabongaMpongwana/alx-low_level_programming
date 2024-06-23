@@ -21,7 +21,8 @@ putchar(i);
  * loop terminates when i equals 122 - the int value for lowercase 'z' in ascii
  */
 i = 65;
-/** new value for i - is ASCII for uppercase 'A'
+/**
+ * new value for i - is ASCII for uppercase 'A'
  */
 while (i <= 90)
 {
