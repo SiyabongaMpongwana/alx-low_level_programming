@@ -13,7 +13,7 @@ int i = 97;
 while (i <= 122)
 {
 putchar(i);
-++i; 
+++i;
 }
 /**
  * checks variable i against 122(the last lowercase character of alphabet)
@@ -29,7 +29,7 @@ putchar(i);
 ++i;
 }
 /**
- * i compared against 90 - uppercase 'Z' in ASCII 
+ * i compared against 90 - uppercase 'Z' in ASCII
  * prints out ASCII character corresponding to value of i
  * increments i until i equals 90 then loop terminates
  * after printing ASCII character for 90
@@ -40,6 +40,6 @@ putchar(10);
  */
 return (0);
 /**
- * return value: is void 
+ * return value: is void
  */
 }
