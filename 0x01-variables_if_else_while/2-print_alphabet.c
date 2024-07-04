@@ -1,18 +1,15 @@
 #include <stdio.h>
-/*
- * function converts int values to ascii
- * and prints out the the corrensponding ascii character
- * in this case it is the English alphabet in lowercase
+/**
+ *  main - function
+ *  Return: Returns nothing
  */
 int main(void)
 {
-int lowerAlpha = 97; /* ascii value for the first lowercase alphabet */
-
-while (lowerAlpha <= 122)
+int a;
+for (a = 97; a <= 122; ++a)
 {
-printf("%c", lowerAlpha);
-++lowerAlpha;     }
+putchar(a);
+}
 putchar(10);
 return (0);
 }
-
