@@ -6,6 +6,7 @@
 /**
  * main - generate random numbers
  * function generates random numbers
+ * Returns: returns zero when successful 
  * prints them on screen with their negative or positve values
  */
 int main(void)
