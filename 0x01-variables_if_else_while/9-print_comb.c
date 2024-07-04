@@ -1,22 +1,24 @@
 #include <stdio.h>
 /**
  *  main - function
- *  Return: Returns nothing
+ *
+ *  Return: returns 0 if successful
  */
 int main(void)
 {
-int i = 48;
-for (i = 48; i < 57; ++i)
-{
-if (i == 58)
+int i;
+
+for (i = 48; i <= 57; ++i)
 {
 putchar(i);
-putchar(44);
-putchar(32);
+if (i == 57)
+{
+putchar(10);
 }
 else
 {
-putchar(10);
+putchar(44);
+putchar(32);
 }
 }
 return (0);
