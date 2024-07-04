@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
  * main - prints English alphabet
- *
+ * Return: returns nothing
  */
 int main(void)
 {
 int i = 97;
 /**
- * variable holding int value of ASCII character
+ * Description: variable holding int value of ASCII character
  * initialized to 97 - the int value for lowercase ASCII character 'a'
  */
 while (i <= 122)
@@ -20,7 +20,7 @@ putchar(i);
  * prints each character corresponding to changing i value
  * loop terminates when i equals 122 - the int value for lowercase 'z' in ascii
  */
-i = 65;
+i = 65; /* i initialized to 65 */
 /**
  * new value for i - is ASCII for uppercase 'A'
  */

@@ -1,14 +1,23 @@
 #include <stdio.h>
-
+/**
+ *  main - function
+ *  Return: Returns nothing
+ */
 int main(void)
 {
 int i = 48;
-while (i <= 57)
+for (i = 48; i < 57; ++i)
+{
+if (i == 58)
 {
 putchar(i);
 putchar(44);
 putchar(32);
-++i; }
+}
+else
+{
 putchar(10);
+}
+}
 return (0);
 }
